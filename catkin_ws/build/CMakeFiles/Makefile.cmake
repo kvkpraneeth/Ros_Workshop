@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/pkvk/Ros_Workshop/catkin_ws/src/CMakeLists.txt"
   "/home/pkvk/Ros_Workshop/catkin_ws/src/pkg_1/CMakeLists.txt"
   "/home/pkvk/Ros_Workshop/catkin_ws/src/pkg_1/package.xml"
+  "/home/pkvk/Ros_Workshop/catkin_ws/src/pkg_1/scripts/pubandsub.py"
   "/home/pkvk/Ros_Workshop/catkin_ws/src/pkg_1/scripts/publisher.py"
   "/home/pkvk/Ros_Workshop/catkin_ws/src/pkg_1/scripts/subscriber.py"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"

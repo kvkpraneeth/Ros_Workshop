@@ -2,16 +2,16 @@
 
 import rospy
 from std_msgs.msg import String
- """The Above lines have been Explained in publisher.py"""
+"""The Above lines have been Explained in publisher.py"""
+
 
 def callback(msg):
-	"""This is a very Special Function. it's parameter is a container, it contains the message data that is recieved"""
+    """This is a very Special Function. it's parameter is a container, it contains the message data that is recieved"""
     rospy.loginfo(msg.data)
     """rospy.loginfo analogous to print function in Python"""
     """Why are we doing msg.data? There are certain keywords that are associated with the type of data a message has.
-    For instance, In this case, we are using String and the string documentation shows that the data type is string
-    and the keyword for accessing said string is 'data'."""
-
+	For instance, In this case, we are using String and the string documentation shows that the data type is string
+	and the keyword for accessing said string is 'data'."""
 
 
 def listener():

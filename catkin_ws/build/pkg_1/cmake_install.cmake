@@ -60,3 +60,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkg_1" TYPE PROGRAM FILES "/home/pkvk/Ros_Workshop/catkin_ws/build/pkg_1/catkin_generated/installspace/subscriber.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkg_1" TYPE PROGRAM FILES "/home/pkvk/Ros_Workshop/catkin_ws/build/pkg_1/catkin_generated/installspace/pubandsub.py")
+endif()
+
